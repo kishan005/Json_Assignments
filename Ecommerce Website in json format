@@ -1,0 +1,173 @@
+Questuion- Imagine you are creating a JSON data store for a Ecommerce platform like
+flipkart.com or amazon.in. Create a JSON to show what fields you will choose
+and what type of data (string/object/array) would you want to store in those field.
+
+
+
+Solution:
+
+{
+	"websiteName": "xyzSales",
+
+	"itemsavailbale": [
+		"mobiles",
+		"Watch",
+		"footwear"
+	],
+
+	"Moblies": [
+
+		{
+			"Name": "samsung galxy 005",
+
+			"features": {
+				"camera": "10 mp camera ",
+				"ram": "2gb",
+				"display": "1080px fullhd"
+			},
+
+			"price": 7999
+		},
+
+
+		{
+			"Name": "iphoneX",
+			"feautures": {
+				"camera": "13mp",
+				"ram": "4gb",
+				"display": "1080 px full hd "
+			},
+			"price": 90000
+		},
+
+		{
+			"Name": "MotorolaG4",
+			"features": {
+				"camera": "10mp",
+				"ram": "2gb",
+				"display": "720px"
+			},
+			"price": 7999
+		}
+	],
+	
+
+           "Watch": [{
+			"Menswatch": [{
+					"Name": "fasttrack001",
+					"price": 2000,
+					"Detalis": "Lightning-fast Performance watch with track and share activty facilities"
+				},
+				{
+					"Name": "titan022",
+					"price": 1000,
+					"details": "titan watch with 1 year gurantee and alarm system"
+				}
+			]
+		},
+		{
+			"Womenswatch": [{
+					"Name": "XYZ",
+					"price": 300,
+					"Details": "Smart watch, Magnetic Charging Cable, USB Power Adapter"
+				},
+				{
+					"Name": "ABC",
+					"price": 400,
+					"details": "Smart watch, Watch Series 1 - 42 mm Space Grey Aluminium Case with Black Sport Band"
+				}
+
+			]
+		}
+	],
+
+	"footWear": [{
+			"mensFootwaer": [{
+					
+                                   "Shoes": [{
+							
+                                         "Name": "nike",
+					  "description": {
+							"Colour": "black",
+							"Size available": "S,M,L,XL",
+							"Price": 4000
+							}
+						},
+						{
+							"Name": "adidas",
+							"description": {
+							"Colour": "white",
+							"Size available": "S,M",
+							"Price": 5000
+							}
+						}
+					]
+				},
+
+				{
+					"Mens Slipper": [{
+							"Name": "Alpha",
+							"description": {
+							   "colour": "black",
+							   "size": "XXL",
+							   "price": "200"
+							}
+						},
+						{
+							"Name": "XYZslipper",
+							"description": {
+							   "colour": "red",
+							   "size": "xxl",
+						           "price": 222
+							}
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"Womensfootwear": [{
+					"Sandal": [{
+							"Name": "ABCsandal",
+							"description": {
+							     "Colour": "black",
+							     "Size available": "S,M,L,XL",
+							     "Price": 4000
+							}
+						},
+						{
+							"Name": "bxsandal",
+							"description": {
+							       "Colour": "white",
+							       "Size available": "S,M",
+							       "Price": 5000
+							}
+						}
+					]
+				},
+				{
+					"Womens Shoes": [{
+							"Name": "Alpha Slipper",
+							"description": {
+								"colour": "black",
+								"size": "XXL",
+								"price": "200"
+							}
+						},
+						{
+							"Name": "Bitaslipper",
+
+							"description": {
+								"colour": "red",
+								"size": "xxl",
+								"price": 222
+							}
+						}
+					]
+				}
+
+			]
+		}
+	]
+}
